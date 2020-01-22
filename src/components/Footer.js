@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faGithub, faTwitter, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faTwitter, faLinkedin, faMedium} from "@fortawesome/free-brands-svg-icons";
 
 export default class Footer extends Component {
 
@@ -16,7 +16,11 @@ export default class Footer extends Component {
         <a className="icon-link" href="https://twitter.com/StevenMonagha18?fbclid=IwAR0PEW8jFJfF_E_GxASa5OTi4IMIKrAFD3SfLq2iABtOQjG2h3OinLTJJtc">
           <FontAwesomeIcon className="display-icon" icon={faTwitter} size="2x" />
         </a>
+        <a className="icon-link" href="https://medium.com/@stevenrmonaghan">
+          <FontAwesomeIcon className="display-icon" icon={faMedium} size="2x" />
+        </a>
         <br />
+        <p> Contact: stevenrmonaghan@gmail.com </p>
         <p>&copy; 2020, Steven Monaghan </p>
       </div>
     )
