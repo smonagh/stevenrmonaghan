@@ -23,6 +23,9 @@ export default class Header extends Component {
               <li>
                 <a className="nav-link" href="https://medium.com/@stevenrmonaghan"> Blog </a>
               </li>
+              <li>
+                <a className="nav-link" href="/game_dev">Game Dev</a>
+              </li>
             </ul>
             <form className="form-inline my-2 my-lg-0">
               <ul className="navbar-nav mr-auto">

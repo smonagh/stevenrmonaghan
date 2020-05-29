@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import GameDev from './components/GameDev'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route path="/resume">
               <Resume />
+            </Route>
+            <Route path="/game_dev">
+              <GameDev />
             </Route>
             <Route path="/contact">
               <Contact />
